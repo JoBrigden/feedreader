@@ -17,7 +17,7 @@ This project uses [Jasmine](http://jasmine.github.io/) to test if all JavaScript
 
 ## instructions
 
-[Clone](https://github.com/JoBrigden/feedreader) this repository and open index.html file to view the testing site in your browser.
+[Clone](https://github.com/JoBrigden/feedreader) this repository and open index.html file to view the testing site in your browser, or visit https://jobrigden.github.io/feedreader/ to access the site immediately.
 
 ## Tests that were implemented
 
