@@ -6,9 +6,9 @@ This project uses [Jasmine](http://jasmine.github.io/) to test if all JavaScript
 
 * [Instructions](#instructions)
 * [Tests that were implemented](#tests-that-were-implemented)
-  * [RSS Feeds](#rss-feeds:)
-  * [The Menu](#the-menu:)
-  * [Initial Entries](#initial-entries:)
+  * [RSS Feeds](#rss-feeds)
+  * [The Menu](#the-menu)
+  * [Initial Entries](#initial-entries)
   * [New Feed Selection](#new-feed-selection)
 * [How this Project was Completed](#how-this-project-was-completed)
 * [Contributing](#contributing)
@@ -21,20 +21,20 @@ This project uses [Jasmine](http://jasmine.github.io/) to test if all JavaScript
 
 ## Tests that were implemented
 
-### RSS Feeds:
-  * Feeds are defined and are not empty
-  * Feed URLs are defined and not empty
-  * Feed names are defined and not empty
+###   RSS Feeds:
+      * Feeds are defined and are not empty
+      * Feed URLs are defined and not empty
+      * Feed names are defined and not empty
 
-### The Menu:
-  * The menu is hidden by default
-  * The menu changes visibility on click event
+###   The Menu:
+      * The menu is hidden by default
+      * The menu changes visibility on click event
 
-### Initial Entries:
-  * The feed container has at least one entry
+###   Initial Entries:
+      * The feed container has at least one entry
 
-### New Feed Selection:
-  * New feed content is displayed when new feed is selected
+###   New Feed Selection:
+      * New feed content is displayed when new feed is selected
 
 # How this project was completed
 
@@ -49,6 +49,6 @@ This project uses [Jasmine](http://jasmine.github.io/) to test if all JavaScript
 
 Contributions to add more tests to run are welcome.
 
-# license
+# License
 
 This project is licensed under the MIT license.
