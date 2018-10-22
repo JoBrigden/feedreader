@@ -29,10 +29,10 @@ $(function() {
      * and that the URL is not empty.
      */
     it('urls defined and not empty', () => {
-           for (feed of allFeeds) {
-             expect(feed.url).toBeDefined();
-             expect(feed.url.length).not.toBe(0);
-           };
+      allFeeds.forEach(feed => {
+        expect(feed.url).toBeDefined();
+        expect(feed.url.length).not.toBe('');
+      });
     });
 
     /* a test that loops through each feed
@@ -40,10 +40,10 @@ $(function() {
      * and that the name is not empty.
      */
     it('names defined and not empty', () => {
-      for (feed of allFeeds) {
+      allFeeds.forEach(feed => {
         expect(feed.name).toBeDefined();
-        expect(feed.name.length).not.toBe(0);
-      };
+        expect(feed.name.length).not.toBe('');
+      });
     });
   });
 
