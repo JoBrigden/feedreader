@@ -109,6 +109,9 @@ $(function() {
       });
 
       it('feed changes', () => {
+        expect(originalFeed).toBeDefined();
+        newFeed = $('.feed').html();
+        expect(newFeed).toBeDefined();
         expect(originalFeed).not.toEqual(newFeed);
       });
     });
